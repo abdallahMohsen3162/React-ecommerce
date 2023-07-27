@@ -1,0 +1,49 @@
+*{
+    list-style: none;
+}
+
+.title{
+    position: relative;
+    z-index: 1;
+    transition-duration: 1s;
+}
+
+
+.card:hover .disc-hidden{
+    top: -100%;
+
+    transition-duration: 0.5s;
+}
+.card{
+    min-height:800px;
+}
+
+.Card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: end !important;
+    align-items: start !important;
+}
+
+.price{
+    color: crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.description{
+    font-size: small;
+    font-weight: 500;
+}
+.load{
+    display: flex !important;
+    justify-content: center;
+    background-color: black !important;
+    align-items: center !important;
+}
+
+body{
+    background-color: black !important;
+}
